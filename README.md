@@ -21,7 +21,7 @@ Rename .env.example file to .env.
 Configure environment variables such as database connection URI, JWT secret, etc., in the .env file.
 Usage
 Start the server: npm start
-The server will be running on http://localhost:<port>
+The server will be running on http://localhost:4000;
 API Endpoints
 router.post("/posts/create", createPost);//Create a Post with this route
 router.get("/posts", getAllPosts);//Get All Posts with this Route
